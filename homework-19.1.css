@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background-image: url(back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div-1 {
+  width: 47%;
+  height: 100vh;
+  backdrop-filter: blur(15px);
+  color: white;
+  display: inline-block;
+  float: left;
+}
+.div-nav {
+  height: 15%;
+  display: inline-block;
+  padding: 0px 1rem 2rem 3rem;
+  width: 20%;
+}
+.photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 3px solid white;
+}
+.bt {
+  padding: 0px 50px;
+  background: none;
+  border-radius: 40px;
+  border: 3px solid white;
+  margin: 0px 25px;
+  font-size: 1rem;
+  color: white;
+}
+.bt:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 00.2);
+}
+.logo {
+  /* display: flex; */
+  display: inline-block;
+  margin-left: 70rem;
+  display: flex;
+}
+.fa-circle-half-stroke {
+  margin: 2rem 0rem 0rem 2rem;
+  font-size: 2rem;
+}
+.p {
+  margin-left: 17px;
+  margin-top: 5px;
+}
+.last {
+  padding: 6rem 4rem;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 70px;
+}
+p {
+  margin-top: 2rem;
+}
+input {
+  padding: 6px;
+  width: 55%;
+  background: none;
+  border-radius: 40px;
+  border: 3px solid white;
+  margin: 30px 0px;
+  font-size: 1rem;
+  color: white;
+}
+input::placeholder {
+  color: white;
+}
+.inner img {
+  width: 13%;
+  height: 8%;
+  margin: 0px 20px;
+}
+.div-2 {
+  width: 50%;
+  display: inline-block;
+  color: white;
+  position: relative;
+  top: 45rem;
+  left: 5rem;
+}
+.img-1 {
+  border: 3px solid white;
+}
+img:hover{
+  transform: translateY(-10px);
+  transition: 0.6s;
+}
