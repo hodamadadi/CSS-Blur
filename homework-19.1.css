@@ -39,7 +39,7 @@ body {
 }
 .bt:hover {
   transform: translateY(-3px);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 00.2);
+  box-shadow: 0 1.1rem 2rem rgba(0, 0, 0, 00.2);
 }
 .logo {
   /* display: flex; */
